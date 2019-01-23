@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/DataStatic">
+        <file>images/excel.png</file>
+        <file>images/print.png</file>
+        <file>images/query.png</file>
+        <file>images/quit.png</file>
+        <file>images/dataStatic.png</file>
+    </qresource>
+</RCC>

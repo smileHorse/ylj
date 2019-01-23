@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{420044e6-c5e6-469c-b221-80de84dbe658}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{0b71d6d1-96de-4bc7-ac3a-9e26a91f9d8a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{6b8bc768-e9f4-4843-aa54-fc7bdfb2835a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\UI">
+      <UniqueIdentifier>{53ce3164-281c-41f9-bc21-d748e0e6f573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\DBData">
+      <UniqueIdentifier>{c7e04742-7bd0-484b-ba96-913e05b4ca31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\DBOper">
+      <UniqueIdentifier>{864cb9c7-8c71-4e81-97c5-88c0bbb8ee0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\StaticData">
+      <UniqueIdentifier>{a4d85137-dd0e-4e06-af40-6bd7e918b7b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="datastatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_datastatic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_datastatic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_datastatic.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\UI\DeviceComboBox.cpp">
+      <Filter>common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\DBOper\ConnectionPool.cpp">
+      <Filter>common\DBOper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\DBOper\DBOper.cpp">
+      <Filter>common\DBOper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\UI\BrickTypeComboBox.cpp">
+      <Filter>common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\UI\BrickTypeListWidget.cpp">
+      <Filter>common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\UI\DeviceListWidget.cpp">
+      <Filter>common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\UI\MeterialComboBox.cpp">
+      <Filter>common\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeviceComboBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeviceComboBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BrickTypeComboBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BrickTypeComboBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BrickTypeListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BrickTypeListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeviceListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeviceListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeterialComboBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeterialComboBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\StaticData\StaticData.cpp">
+      <Filter>common\StaticData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="datastatic.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="datastatic.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\common\UI\DeviceComboBox.h">
+      <Filter>common\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\common\UI\BrickTypeComboBox.h">
+      <Filter>common\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\common\UI\BrickTypeListWidget.h">
+      <Filter>common\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\common\UI\DeviceListWidget.h">
+      <Filter>common\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\common\UI\MeterialComboBox.h">
+      <Filter>common\UI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\DBData\FactoryData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBData\UserData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBOper\ConnectionPool.h">
+      <Filter>common\DBOper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBOper\DBOper.h">
+      <Filter>common\DBOper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBData\DeviceData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBData\MeterialData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBData\BrickTypeData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBData\BrickParamData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\StaticData\StaticData.h">
+      <Filter>common\StaticData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DBData\HisData.h">
+      <Filter>common\DBData</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

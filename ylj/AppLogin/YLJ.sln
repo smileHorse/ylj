@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppLogin", "AppLogin\AppLogin.vcxproj", "{A7B53667-89E7-4454-9F44-37C6E5CBDD86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainWindow", "..\MainWindow\MainWindow\MainWindow.vcxproj", "{7850B867-5280-4A41-8D2C-5448D52C7D2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStatic", "..\DataStatic\DataStatic.vcxproj", "{AD12F535-C3B8-4E0D-B8A9-F24E4D4F5F58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B53667-89E7-4454-9F44-37C6E5CBDD86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7B53667-89E7-4454-9F44-37C6E5CBDD86}.Debug|Win32.Build.0 = Debug|Win32
+		{A7B53667-89E7-4454-9F44-37C6E5CBDD86}.Release|Win32.ActiveCfg = Release|Win32
+		{A7B53667-89E7-4454-9F44-37C6E5CBDD86}.Release|Win32.Build.0 = Release|Win32
+		{7850B867-5280-4A41-8D2C-5448D52C7D2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7850B867-5280-4A41-8D2C-5448D52C7D2C}.Debug|Win32.Build.0 = Debug|Win32
+		{7850B867-5280-4A41-8D2C-5448D52C7D2C}.Release|Win32.ActiveCfg = Release|Win32
+		{7850B867-5280-4A41-8D2C-5448D52C7D2C}.Release|Win32.Build.0 = Release|Win32
+		{AD12F535-C3B8-4E0D-B8A9-F24E4D4F5F58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD12F535-C3B8-4E0D-B8A9-F24E4D4F5F58}.Debug|Win32.Build.0 = Debug|Win32
+		{AD12F535-C3B8-4E0D-B8A9-F24E4D4F5F58}.Release|Win32.ActiveCfg = Release|Win32
+		{AD12F535-C3B8-4E0D-B8A9-F24E4D4F5F58}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/AppLogin">
+        <file>image/login.png</file>
+        <file>image/background.png</file>
+        <file>image/splash.png</file>
+    </qresource>
+</RCC>
